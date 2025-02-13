@@ -19,18 +19,22 @@
       <header><h1>Welcome to the AI quote generator</h1></header>
 
       <main>
-        <form id="quote-generator-form">
-          <input
-            type="text"
-            placeholder="Enter a topic for the book quote"
-            autofocus
-            required
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="quote" id="quote"></div>
+        <div class="form-container">
+          <form id="quote-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a topic for the book quote"
+              autofocus
+              required
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Love, Nature or Friendship</div>
+        </div>
+
+        <div class="quote hidden" id="quote"></div>
       </main>
       <footer>
         This AI project was coded by
