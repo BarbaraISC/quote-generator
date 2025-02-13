@@ -5,24 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <title>AI recipe generator</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>AI quote generator</title>
   </head>
   <body>
     <div class="container">
-      <header><h1>Welcome to the AI recipe generator</h1></header>
+      <header><h1>Welcome to the AI quote generator</h1></header>
 
       <main>
-        <form id="recipe-generator-form">
+        <form id="quote-generator-form">
           <input
             type="text"
-            placeholder="Enter the name of the recipe you would like"
+            placeholder="Enter a topic for the book quote"
             autofocus
             required
             class="instructions"
+            id="user-instructions"
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="recipe" id="recipe"></div>
+        <div class="quote" id="quote"></div>
       </main>
       <footer>
         This AI project was coded by

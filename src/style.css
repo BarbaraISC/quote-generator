@@ -1,6 +1,9 @@
 body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/157/322/original/recipe.jpg?1739353388");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/157/453/original/mona-eendra-vC8wj_Kphak-unsplash_%281%29.jpg?1739440845");
   background-size: cover;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 a {
@@ -19,7 +22,7 @@ header {
 
 h1 {
   text-align: center;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 36px;
   line-height: 1.5;
   color: #272044;
@@ -45,7 +48,7 @@ form {
   padding: 14px 24px;
 }
 
-.recipe {
+.quote {
   font-size: 16px;
   background-color: #fff;
   padding: 20px;
